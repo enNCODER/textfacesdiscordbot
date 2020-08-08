@@ -15,7 +15,7 @@ client.on('message', message => {
     }
     if (message.content === '!shrug') {
         // send back "Pong." to the channel the message was sent in
-        message.channel.send('¯〵_(ツ)_/¯');
+        message.channel.send('¯〵(ツ)_/¯');
     }
     if (message.content === '!tableflip') {
         // send back "Pong." to the channel the message was sent in
