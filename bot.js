@@ -33,6 +33,10 @@ client.on('message', message => {
         // send back "Pong." to the channel the message was sent in
         message.channel.send('( ͡° ʖ̯ ͡°)');
     }
+    if (message.content === '!status') {
+        // send back "Pong." to the channel the message was sent in
+        client.user.setActivity('!faces for a list of commands', { type: 'WATCHING' });
+    }
     
     ;
 });
