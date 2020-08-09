@@ -7,7 +7,7 @@ client.once('ready', () => {
 client.on('message', message => {
 	if (message.content === '!faces') {
         // send back "Pong." to the channel the message was sent in
-        message.channel.send('https://cdn.discordapp.com/attachments/741735493875662899/742044543490457630/unknown.png');
+        message.channel.send('https://cdn.discordapp.com/attachments/741735493875662899/742066725738250350/unknown.png');
     }
     if (message.content === '!smile') {
         // send back "Pong." to the channel the message was sent in
@@ -64,6 +64,10 @@ client.on('message', message => {
     if (message.content === '!happy-dm') {
         // send back "Pong." to the channel the message was sent in
         message.author.send('ヽ(͡◕ ͜ʖ ͡◕)ﾉ');
+    }
+    if (message.content === '!faces-dm') {
+        // send back "Pong." to the channel the message was sent in
+        message.author.send('https://cdn.discordapp.com/attachments/741735493875662899/742066725738250350/unknown.png');
     }
     
     ;
