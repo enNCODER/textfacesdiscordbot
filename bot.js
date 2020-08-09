@@ -27,7 +27,7 @@ client.on('message', message => {
     }
     if (message.content === '!gun') {
         // send back "Pong." to the channel the message was sent in
-        message.channel.send('(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-');
+        message.channel.send('```(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-```');
     }
     if (message.content === '!sad') {
         // send back "Pong." to the channel the message was sent in
