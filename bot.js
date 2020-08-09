@@ -37,6 +37,34 @@ client.on('message', message => {
         // send back "Pong." to the channel the message was sent in
         message.channel.send('ヽ(͡◕ ͜ʖ ͡◕)ﾉ');
     }
+    if (message.content === '!smile-dm') {
+        // send back "Pong." to the channel the message was sent in
+        message.author.send('( ͡° ͜ʖ ͡°)');
+    }
+    if (message.content === '!shrug-dm') {
+        // send back "Pong." to the channel the message was sent in
+        message.author.send('```¯╲_(ツ)_/¯```');
+    }
+    if (message.content === '!tableflip-dm') {
+        // send back "Pong." to the channel the message was sent in
+        message.author.send('(⌐▀͡ ̯ʖ▀) ╯︵ ┻─┻');
+    }
+    if (message.content === '!glasses-dm') {
+        // send back "Pong." to the channel the message was sent in
+        message.author.send('(▀̿Ĺ̯▀̿ ̿)');
+    }
+    if (message.content === '!gun-dm') {
+        // send back "Pong." to the channel the message was sent in
+        message.author.send('```(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-```');
+    }
+    if (message.content === '!sad-dm') {
+        // send back "Pong." to the channel the message was sent in
+        message.author.send('( ͡° ʖ̯ ͡°)');
+    }
+    if (message.content === '!happy-dm') {
+        // send back "Pong." to the channel the message was sent in
+        message.author.send('ヽ(͡◕ ͜ʖ ͡◕)ﾉ');
+    }
     
     ;
 });
