@@ -18,7 +18,7 @@ If you are going to use this, make sure to replace
 “client.login(process.env.BOT\_TOKEN);//BOT\_TOKEN is the Client
 Secret” with “client.login('your-token-goes-here');“ at the bottom of
 bot.js (replace “your-token-goes-here” with your bot token but don’t get
-rid of the two ' at the beginning and end of the text.\
+rid of the two ' symbols at the beginning and end of the text.\
 \
 This bot is currently being hosted with
 [Heroku](https://www.google.com/url?q=https://heroku.com&sa=D&ust=1597155937937000&usg=AOvVaw2FGMc8GJKrHXWzfQmk6Sa3).
